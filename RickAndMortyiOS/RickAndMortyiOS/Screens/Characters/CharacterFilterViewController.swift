@@ -38,6 +38,7 @@ class CharacterFilterViewController: UIViewController {
         configureViews()
         configurePickerViewsDataSourceAndDelegates()
         view.backgroundColor = .systemBackground
+        view.accessibilityIdentifier = "CharacterFilterView"
     }
     
     override func viewDidLayoutSubviews() {
